@@ -1,5 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import {FormBuilder, FormGroup, Validator, Validators} from "@angular/forms";
+import {AccountService} from "../account/account.service";
+import {IAddress} from "../shared/Modules/address";
+import {add} from "ngx-bootstrap/chronos";
 
 @Component({
   selector: 'app-checkout',
@@ -9,11 +12,12 @@ import {FormBuilder, FormGroup, Validator, Validators} from "@angular/forms";
 export class CheckoutComponent implements OnInit {
   checkoutForm: FormGroup;
 
-  constructor(private fb: FormBuilder) {
+  constructor(private fb: FormBuilder, private accountService: AccountService) {
   }
 
   ngOnInit(): void {
     this.createCheckoutForm();
+    this.getAddressFormValues();
   }
 
   createCheckoutForm() {
@@ -35,4 +39,14 @@ export class CheckoutComponent implements OnInit {
     })
   }
 
+  getAddressFormValues(){
+    this.accountService.getUserAddress().subscribe(address => {
+      if(address){
+        this.checkoutForm.get('addressForm').patchValue(address);
+        this.checkoutForm.get('addressForm').get('zipcode').patchValue(address.zipCode);
+      }
+    },error => {
+      console.log(error);
+    });
+  }
 }

@@ -44,7 +44,7 @@ public class ProductsController : BaseApiController
 
         var data = _mapper
             .Map<IReadOnlyList<Products>, IReadOnlyList<ProductToReturnDto>>(products);
-
+    
         return Ok(new Pagination<ProductToReturnDto>(productsParams.PageIndex, productsParams.PageSize, totalItems, data));
     }
 

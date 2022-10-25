@@ -2,19 +2,19 @@
   <table class="table">
     <thead>
     <tr>
-      <th class="border-0 bg-light" scope="col">
+      <th class="border-0" scope="col" [class.bg-light]="isBasket">
         <div class="p-2 px-3 text-uppercase">Product</div>
       </th>
-      <th scope="col" class="border-0 bg-light">
+      <th scope="col" class="border-0" [class.bg-light]="isBasket">
         <div class="py-2 text-uppercase">Price</div>
       </th>
-      <th scope="col" class="border-0 bg-light">
+      <th scope="col" class="border-0" [class.bg-light]="isBasket">
         <div class="py-2 text-uppercase">Quantity</div>
       </th>
-      <th scope="col" class="border-0 bg-light">
+      <th scope="col" class="border-0" [class.bg-light]="isBasket">
         <div class="py-2 text-uppercase">Total</div>
       </th>
-      <th scope="col" class="border-0 bg-light">
+      <th *ngIf="isBasket" scope="col" class="border-0" [class.bg-light]="isBasket">
         <div class="py-2 text-uppercase">Remove</div>
       </th>
     </tr>
@@ -25,7 +25,7 @@
       <th scope="row">
         <div class="p-2">
           <img src="{{item.pictureUrl}}" alt="{{item.productName}}" class="img-fluid"
-               style="max-height: 50px">
+               style="max-height: 50px; margin-right: 9px">
           <div class="ml-3 d-inline-block align-middle">
             <h5 class="mb-0">
               <a routerLink="/shop/{{item.id}}" class="text-dark">{{item.productName}}</a>
@@ -39,17 +39,20 @@
 
       <td class="align-middle">
         <div class="d-flex align-items-center">
-          <i (click)="decrementItemQuantity(item)" class="fa fa-minus-circle text-warning"
+          <i *ngIf="isBasket" (click)="decrementItemQuantity(item)" class="fa fa-minus-circle text-warning"
              style="cursor: pointer; font-size: 2em; margin-right: 10px"></i>
-          <span class="font-weight-bold" style="font-size: 1.5em">{{item.quantity}}</span>
-          <i (click)="incrementItemQuantity(item)" class="fa fa-plus-circle text-warning mx-2" style="cursor: pointer; font-size: 2em"></i>
+          <span *ngIf="isBasket" class="font-weight-bold" style="font-size: 1.5em">{{item.quantity}}</span>
+          <span *ngIf="isBasket === false" class="font-weight-bold" style="font-size: 1.5em; margin-left: 35px">{{item.quantity}}</span>
+          <i *ngIf="isBasket" (click)="incrementItemQuantity(item)" class="fa fa-plus-circle text-warning mx-2"
+             style="cursor: pointer; font-size: 2em"></i>
         </div>
       </td>
 
       <td class="align-middle"><strong>{{item.price * item.quantity | currency}}</strong></td>
 
       <td class="align-middle text-center">
-        <a (click)="removeBasketItem(item)" class="text-danger"> <i class="fa fa-trash" style="cursor: pointer; font-size: 2em"></i></a>
+        <a *ngIf="isBasket" (click)="removeBasketItem(item)" class="text-danger"> <i class="fa fa-trash"
+                                                                                     style="cursor: pointer; font-size: 2em"></i></a>
       </td>
 
     </tr>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lenovo\\Desktop\\ski shop\\skinet\\api\\API.csproj": {}
+    "C:\\Users\\lenovo\\Desktop\\Git\\skinet\\skinet\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lenovo\\Desktop\\ski shop\\skinet\\api\\API.csproj": {
+    "C:\\Users\\lenovo\\Desktop\\Git\\skinet\\skinet\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\ski shop\\skinet\\api\\API.csproj",
+        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\Git\\skinet\\skinet\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\lenovo\\Desktop\\ski shop\\skinet\\api\\API.csproj",
+        "projectPath": "C:\\Users\\lenovo\\Desktop\\Git\\skinet\\skinet\\API\\API.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\Desktop\\ski shop\\skinet\\api\\obj\\",
+        "outputPath": "C:\\Users\\lenovo\\Desktop\\Git\\skinet\\skinet\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\lenovo\\Desktop\\ski shop\\skinet\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\lenovo\\Desktop\\ski shop\\skinet\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\lenovo\\Desktop\\Git\\skinet\\skinet\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\lenovo\\Desktop\\Git\\skinet\\skinet\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -115,14 +115,14 @@
         }
       }
     },
-    "C:\\Users\\lenovo\\Desktop\\ski shop\\skinet\\Core\\Core.csproj": {
+    "C:\\Users\\lenovo\\Desktop\\Git\\skinet\\skinet\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\ski shop\\skinet\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\Git\\skinet\\skinet\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\lenovo\\Desktop\\ski shop\\skinet\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\lenovo\\Desktop\\Git\\skinet\\skinet\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\Desktop\\ski shop\\skinet\\Core\\obj\\",
+        "outputPath": "C:\\Users\\lenovo\\Desktop\\Git\\skinet\\skinet\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -175,14 +175,14 @@
         }
       }
     },
-    "C:\\Users\\lenovo\\Desktop\\ski shop\\skinet\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\lenovo\\Desktop\\Git\\skinet\\skinet\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\ski shop\\skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\Git\\skinet\\skinet\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\lenovo\\Desktop\\ski shop\\skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\lenovo\\Desktop\\Git\\skinet\\skinet\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\Desktop\\ski shop\\skinet\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\lenovo\\Desktop\\Git\\skinet\\skinet\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -199,8 +199,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\lenovo\\Desktop\\ski shop\\skinet\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\lenovo\\Desktop\\ski shop\\skinet\\Core\\Core.csproj"
+              "C:\\Users\\lenovo\\Desktop\\Git\\skinet\\skinet\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\lenovo\\Desktop\\Git\\skinet\\skinet\\Core\\Core.csproj"
               }
             }
           }

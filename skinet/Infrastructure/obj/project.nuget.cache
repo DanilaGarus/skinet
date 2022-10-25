@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4yztwsVFNltm9RbTjTUNNpFwGjRlGHVGQP7x9gYaef6EUQqjtXbHIiOTKp63ypjnBGcTDABLpL+r/ymQ3MeztA==",
+  "dgSpecHash": "L+03jarqYriVMkhs7y+Bez4jnrYrxSaPAOJzW2x+bmyNvJ8VGo1lUE3Mmx6+HfdB3j3RCOuRvEBP/EBDhUQ3mQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lenovo\\Desktop\\ski shop\\skinet\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\lenovo\\Desktop\\Git\\skinet\\skinet\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

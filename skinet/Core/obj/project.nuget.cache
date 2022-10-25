@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CbrAvGzZW+1KeRmc2uD43yHXn6BwlIhPd5ZlOd2Z7etitUAARK9n+ZFDa7ZvQvg7zFuPb0lgBB3jtk+mFDEPhA==",
+  "dgSpecHash": "VKrJGw9U2bb8DLzC6acNoJKZYMKPGRVYvkyMpPxZwAMKi0y1V0SVxM/lbtq39LaOvNhBuSYQlIBPYP4N2KHVQQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lenovo\\Desktop\\ski shop\\skinet\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\lenovo\\Desktop\\Git\\skinet\\skinet\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.8\\microsoft.aspnetcore.cryptography.internal.6.0.8.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.8\\microsoft.aspnetcore.cryptography.keyderivation.6.0.8.nupkg.sha512",
