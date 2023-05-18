@@ -1,5 +1,4 @@
-﻿using System.Security.Claims;
-using API.Dtos;
+﻿using API.Dtos;
 using API.Errors;
 using API.Extensions;
 using AutoMapper;
@@ -25,7 +24,7 @@ public class AccountController : BaseApiController
         _tokenService = tokenService;
         _mapper = mapper;
     }
-
+        
     [Authorize]
     [HttpGet]
     public async Task<ActionResult<UserDto>> GetCurrentUser()
@@ -39,8 +38,7 @@ public class AccountController : BaseApiController
             DisplayName = user.DisplayName
         };
     }
-
-
+    
     [HttpGet("emailexists")]
     public async Task<ActionResult<bool>> CheckEmailExistsAsync([FromQuery] string email)
     {

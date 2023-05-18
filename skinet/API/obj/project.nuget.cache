@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "89RR7Zq/rSJhghZUJRjGeTFDKHP5GHhyr/05808Pu5J4TuB3jbFRg36MrsUyENcy5TGRwqDh6mu/Kc/XoQuRDA==",
+  "dgSpecHash": "7lMh8KE9UBIerMaHDOnpQmZaD/sx5p7lxiQFEZ6B3Sp/2VRIf3Ww4o2It+IlyIWP1Ug4EqeVMxn9BZpyqOFDsg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lenovo\\Desktop\\Git\\skinet\\skinet\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\lenovo\\Desktop\\Git\\skinet\\skinet\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lenovo\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
